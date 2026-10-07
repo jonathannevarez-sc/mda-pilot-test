@@ -1,0 +1,67 @@
+{
+  "id": "SYN-LOAD-2",
+  "slice": "porch",
+  "stops": [
+    "SYN-STOP-2-1",
+    "SYN-STOP-2-2",
+    "SYN-STOP-2-3",
+    "SYN-STOP-2-4",
+    "SYN-STOP-2-5",
+    "SYN-STOP-2-6",
+    "SYN-STOP-2-7",
+    "SYN-STOP-2-8",
+    "SYN-STOP-2-9",
+    "SYN-STOP-2-10",
+    "SYN-STOP-2-11",
+    "SYN-STOP-2-12"
+  ],
+  "completed": [
+    "SYN-STOP-2-1",
+    "SYN-STOP-2-2",
+    "SYN-STOP-2-3"
+  ],
+  "in_progress": "SYN-STOP-2-4",
+  "planned": [
+    "SYN-STOP-2-5",
+    "SYN-STOP-2-6",
+    "SYN-STOP-2-7",
+    "SYN-STOP-2-8",
+    "SYN-STOP-2-9",
+    "SYN-STOP-2-10",
+    "SYN-STOP-2-11",
+    "SYN-STOP-2-12"
+  ],
+  "committed": [
+    "SYN-STOP-2-1",
+    "SYN-STOP-2-2",
+    "SYN-STOP-2-3",
+    "SYN-STOP-2-4",
+    "SYN-STOP-2-5",
+    "SYN-STOP-2-6",
+    "SYN-STOP-2-7",
+    "SYN-STOP-2-8",
+    "SYN-STOP-2-9",
+    "SYN-STOP-2-10",
+    "SYN-STOP-2-11",
+    "SYN-STOP-2-12"
+  ],
+  "dock": [],
+  "vehicles": [
+    [
+      "SYN-STOP-2-1",
+      "SYN-STOP-2-2",
+      "SYN-STOP-2-3",
+      "SYN-STOP-2-4",
+      "SYN-STOP-2-5",
+      "SYN-STOP-2-6",
+      "SYN-STOP-2-7",
+      "SYN-STOP-2-8",
+      "SYN-STOP-2-9",
+      "SYN-STOP-2-10",
+      "SYN-STOP-2-11",
+      "SYN-STOP-2-12"
+    ]
+  ],
+  "actor": "SYN-DISPATCHER",
+  "revision_id": "SYN-REV-2"
+}
