@@ -1,0 +1,78 @@
+{
+  "story_id": 1402,
+  "scenario": "ac3",
+  "ac": "AC3",
+  "ac_text": "Given a drive order with stops already served, when the dispatcher accepts a new order for the planned stops, then the served stops keep their places and are not reordered.",
+  "seed": 3026232441723806007,
+  "data": {
+    "load": [
+      {
+        "id": "SYN-LOAD-1",
+        "slice": "porch",
+        "stops": [
+          "SYN-STOP-1-1",
+          "SYN-STOP-1-2",
+          "SYN-STOP-1-3",
+          "SYN-STOP-1-4",
+          "SYN-STOP-1-5",
+          "SYN-STOP-1-6",
+          "SYN-STOP-1-7",
+          "SYN-STOP-1-8",
+          "SYN-STOP-1-9",
+          "SYN-STOP-1-10",
+          "SYN-STOP-1-11",
+          "SYN-STOP-1-12"
+        ],
+        "completed": [
+          "SYN-STOP-1-1",
+          "SYN-STOP-1-2",
+          "SYN-STOP-1-3"
+        ],
+        "in_progress": "SYN-STOP-1-4",
+        "planned": [
+          "SYN-STOP-1-5",
+          "SYN-STOP-1-6",
+          "SYN-STOP-1-7",
+          "SYN-STOP-1-8",
+          "SYN-STOP-1-9",
+          "SYN-STOP-1-10",
+          "SYN-STOP-1-11",
+          "SYN-STOP-1-12"
+        ],
+        "committed": [
+          "SYN-STOP-1-1",
+          "SYN-STOP-1-2",
+          "SYN-STOP-1-3",
+          "SYN-STOP-1-4",
+          "SYN-STOP-1-5",
+          "SYN-STOP-1-6",
+          "SYN-STOP-1-7",
+          "SYN-STOP-1-8",
+          "SYN-STOP-1-9",
+          "SYN-STOP-1-10",
+          "SYN-STOP-1-11",
+          "SYN-STOP-1-12"
+        ],
+        "dock": [],
+        "vehicles": [
+          [
+            "SYN-STOP-1-1",
+            "SYN-STOP-1-2",
+            "SYN-STOP-1-3",
+            "SYN-STOP-1-4",
+            "SYN-STOP-1-5",
+            "SYN-STOP-1-6",
+            "SYN-STOP-1-7",
+            "SYN-STOP-1-8",
+            "SYN-STOP-1-9",
+            "SYN-STOP-1-10",
+            "SYN-STOP-1-11",
+            "SYN-STOP-1-12"
+          ]
+        ],
+        "actor": "SYN-DISPATCHER",
+        "revision_id": "SYN-REV-1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story_id": 1402,
+  "story_title": "Keep the in-progress stop current when a dispatcher reorders the planned stops",
+  "department": "dispatch",
+  "schema_version": 1,
+  "engine": "mda-copilot samples 1",
+  "story_entities": [],
+  "scenarios": [
+    {
+      "scenario": "ac1",
+      "ac": "AC1",
+      "rows": {
+        "load": 1
+      },
+      "ac_text": "Given a drive order with one stop in progress, when the dispatcher accepts a new order for the planned stops, then the stop in progress is still the current stop.",
+      "file": "ac1.json"
+    },
+    {
+      "scenario": "ac2",
+      "ac": "AC2",
+      "rows": {
+        "load": 1
+      },
+      "ac_text": "Given a drive order with one stop in progress, when the dispatcher accepts a new order for the planned stops, then the planned stops follow the dispatcher's order behind the current stop.",
+      "file": "ac2.json"
+    },
+    {
+      "scenario": "ac3",
+      "ac": "AC3",
+      "rows": {
+        "load": 1
+      },
+      "ac_text": "Given a drive order with stops already served, when the dispatcher accepts a new order for the planned stops, then the served stops keep their places and are not reordered.",
+      "file": "ac3.json"
+    },
+    {
+      "scenario": "ac4",
+      "ac": "AC4",
+      "rows": {
+        "load": 1
+      },
+      "ac_text": "Given a dispatcher who puts the in-progress stop somewhere else in the new order, when they accept that order, then the in-progress stop is still the current stop and the planned stops follow the rest of the order.",
+      "file": "ac4.json"
+    },
+    {
+      "scenario": "ac5",
+      "ac": "AC5",
+      "rows": {
+        "load": 1
+      },
+      "ac_text": "Given a driver reading the device at a stop, when the dispatcher's new order is accepted, then the device shows the same current stop and the remaining stops in the new order.",
+      "file": "ac5.json"
+    }
+  ],
+  "uncovered": []
+}
