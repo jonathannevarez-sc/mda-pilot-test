@@ -1,0 +1,18 @@
+{
+  "kind": "library",
+  "summary": "A Python package with tests. Standard library only.",
+  "language": "python",
+  "framework": "none",
+  "runtime": "none",
+  "test": "python3 -m unittest discover -s tests",
+  "build": "",
+  "template": "",
+  "layout": [
+    "<package>/: the module the story changes",
+    "tests/: unittest tests"
+  ],
+  "packages": "A new package needs an ADR.",
+  "also": [],
+  "decided_on": "2026-10-07",
+  "adr": "docs/adr/0001-stack-library.md"
+}
